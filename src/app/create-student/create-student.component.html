@@ -1,0 +1,15 @@
+<h2>Create Student</h2>
+<form (ngSubmit)="onsubmit()">
+    <div class="form-group w-50">
+        <label>Name</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="students.name"
+            [ngModelOptions]="{standalone: true}">
+        <label>Contact Number</label>
+        <input type="text" class="form-control" id="contactNumber" [(ngModel)]="students.contactNumber"
+            [ngModelOptions]="{standalone: true}">
+        <label>Email</label>
+        <input type="text" class="form-control" id="email" [(ngModel)]="students.email"
+            [ngModelOptions]="{standalone: true}">
+    </div>
+    <button class="btn btn-success w-50" type="submit">submit</button>
+</form>

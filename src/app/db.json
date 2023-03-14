@@ -1,0 +1,22 @@
+{
+  "student": [
+    {
+      "id": 1001,
+      "name": "shubham sakhare",
+      "contactNumber": "9637835053",
+      "email": "shubhamsakhare@gmail.com"
+    },
+    {
+      "name": "manoj sakhare",
+      "contactNumber": "7350961363",
+      "email": "manojsakhare@gmail.com",
+      "id": 1002
+    },
+    {
+      "name": "Ramesh Sakhare",
+      "contactNumber": "7875742964",
+      "email": "rameshsakhare@gmail.com",
+      "id": 1003
+    }
+  ]
+}
